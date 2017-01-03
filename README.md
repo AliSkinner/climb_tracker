@@ -11,6 +11,7 @@ To start
 git clone git@github.com:AliSkinner/climb_tracker.git
 cd climb_tracker
 pip install -r requirements.txt
+python climb_tracker/manage.py migrate
 python climb_tracker/manage.py createsuperuser
 python climb_tracker/manage.py runserver
 ```
